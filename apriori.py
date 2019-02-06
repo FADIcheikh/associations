@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from apyori import apriori
 
-df = pd.read_table("D:\Data_Minig\seance5\market_basket\market_basket.txt",sep ='\t',header = 0)
+df = pd.read_table("D:\Data_Minig\sseance5_associative_apriori\market_basket\market_basket.txt",sep ='\t',header = 0)
 #print df.head(5)
 #print len(df)
 #print df.shape[1]
